@@ -1,0 +1,9 @@
+<div class="container mx-auto lg:w-2/3 mx-auto my-5 text-gray-800">
+    <% site.posts.each(function(post, i){ %>
+    <a class="flex items-end hover:text-blue-500 py-1 md:justify-center justify-between" href="<%- post.path %>">
+        <span class="flex-1 md:text-right truncate px-2"><%- post.title %></span>
+        <span
+            class="flex-1 font-mono text-xs text-gray-400 px-2 font-thin text-right md:text-left"><%- post.date.format('YYYY.MM.DD') %></span>
+    </a>
+    <% }) %>
+</div>

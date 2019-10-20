@@ -1,0 +1,14 @@
+<div class="md:flex md:flex-row justify-between flex-col container mx-auto my-5 relative h-screen">
+    <div class="lg:w-2/3 mx-auto">
+        <div class="p-4">
+            <div class="meta mb-6">
+                <h1 class="text-lg text-gray-700 text-center">
+                    <%- page.title %>
+                </h1>
+                <p class="text-xs text-gray-400 text-center font-mono"><%- page.date.format('YYYY.MM.DD') %></p>
+            </div>
+            <div class="py-2 text-gray-700 leading-relaxed">
+                <%- page.content %>
+            </div>
+        </div>
+    </div>
