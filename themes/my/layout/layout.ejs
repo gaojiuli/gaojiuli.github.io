@@ -1,29 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <% if(page&&page.title){%>
     <title><%- page.title %>_Jiuli Gao</title>
     <%}else{%>
     <title>Jiuli Gao</title>
     <%}%>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
-    <link href="https://cdn.bootcss.com/highlight.js/9.15.10/styles/tomorrow.min.css" rel="stylesheet">
-</head>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet" />
+    <link href="https://cdn.bootcss.com/highlight.js/9.15.10/styles/tomorrow.min.css" rel="stylesheet" />
+  </head>
 
-<body class="bg-gray-100 p-0">
+  <body class="bg-white p-0">
     <div class="bg-gray-200 shadow">
-        <div class="flex justify-around container mx-auto py-4">
-            <div class="text-gray-700 text-center">
-                <a href="/" class="text-lg px-2">Jiuli Gao</a>
-            </div>
+      <div class="flex justify-around container mx-auto py-4">
+        <div class="text-gray-700 text-center">
+          <a href="/" class="text-lg px-2">Jiuli Gao</a>
         </div>
+      </div>
     </div>
     <section><%- body %></section>
     <script src="https://cdn.bootcss.com/highlight.js/9.15.10/highlight.min.js"></script>
-    </body>
-
+  </body>
 </html>
