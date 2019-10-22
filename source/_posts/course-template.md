@@ -1,0 +1,60 @@
+---
+title: 课程模板
+---
+
+- Angular：起步
+  - 介绍与准备
+    - 介绍（起步 1）
+    - 创建与运行 Angular 前端项目
+    - 项目的源代码管理
+    - VSCode：使用 Prettier 格式化代码
+    - VSCode：安装 Angular Essentials
+  - 基础
+    - 理解初始化的项目结构
+    - 模块：Modules
+    - 组件：Components
+    - 显示数据（插值，ngFor，ngIf）
+    - 属性绑定（Property binding）
+    - 事件绑定（Event binding）
+- Angular：起步 2
+- Angular：表单
+- Angular：路由
+  - 介绍与准备
+    - 介绍（Routing）
+    - 准备项目
+    - 内容列表的自定义样式
+    - 注册表单的自定义样式
+    - Header 组件与样式
+  - 路由
+    - 路由（Routing）
+    - 定义重定向路由（redirectTo）
+    - 定义通配符路由（wildcard）
+    - 用路由模块管理路由（Routing module）
+    - 功能模块的路由模块（RouterModule.forChild）
+    - 路由链接与路由链接的活动状态（routerLink, routerLinkActive）
+    - 用代码导航到指定的地址（router.navigate）
+    - 使用路由的可选参数（Optional parameters）
+    - 演示模块（DemoModule）
+    - 子路由（Child Routes）
+    - 演示组件的视图（DemoComponent）
+    - 二级路由与有名字的 Outlets
+    - MessageBoxComponent 样式
+    - 清除二级路由
+- Angular：守卫
+- Angular：异步路由
+- Angular：Observable
+- Angular：HTTP
+  - 介绍与准备
+    - 介绍（HTTP）
+    - 准备项目（HTTP）
+    - 准备一个演示用的后端服务
+    - 清理 PostService 服务
+  - HTTP 客户端
+    - 配置 Http 客户端
+    - 用 Http 客户端请求获取数据
+    - 请求单个内容资源
+    - 处理请求遇到的错误
+    - 错误处理服务（catchError, throwError）
+    - 重试（retry, retryWhen, delay, take）
+- Angular：请求
+- Angular：模块
