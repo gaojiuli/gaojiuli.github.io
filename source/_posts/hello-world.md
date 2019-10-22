@@ -10,3 +10,10 @@ title: 生活的标签
 - fish
 - illustrator
 - photoshop
+
+```python
+import requests
+
+def main():
+    return "Test String"
+```
